@@ -15,11 +15,11 @@ class Configapp(object):
     HOST = '0.0.0.0'
     PORT = 5000
 
-    DB_USERNAME = 'rferro'
-    DB_PASSWORD = 'rferro2018**++'
-    DB_HOST = '192.168.7.22'
+    DB_USERNAME = ''
+    DB_PASSWORD = ''
+    DB_HOST = ''
     DB_PORT = '1987'
-    DB_NAME = 'bitinka'
+    DB_NAME = ''
     DB_DRIVER = 'mysql+pymysql'
 
     # SQLAlchemy:
