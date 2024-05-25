@@ -9,7 +9,7 @@ BASE_DIR = os.path.abspath(os.path.dirname(__file__))
 
 class Configapp(object):
 
-    IP_ALLOWED=["0.0.0.0","127.0.0.1","192.168.1.111","192.168.1.144","192.168.1.101"]
+    IP_ALLOWED=["0.0.0.0","127.0.0.1"]
     # Run:
     DEBUG = False
     HOST = '0.0.0.0'
