@@ -5,11 +5,11 @@ import pymysql
 
 class Connection():
     def __init__(self):
-        host = "192.168.7.22"
-        user = "rferro"
+        host = ""
+        user = "
         port = 1987
-        password = "rferro2018**++"
-        db = "bitinka"
+        password = ""
+        db = ""
         self.con = pymysql.connect(host=host,port=port,user=user, password=password, db=db, cursorclass=pymysql.cursors.DictCursor)
         self.cur = self.con.cursor()
 
